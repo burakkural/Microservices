@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Reservation.API.Models\Reservation.API.Models.csproj" />
+    <ProjectReference Include="..\Reservation.API.Services\Reservation.API.Services.csproj" />
+    <ProjectReference Include="..\Reservation.Infastructure\Reservation.API.Infastructure.csproj" />
+  </ItemGroup>
+
+
+</Project>
